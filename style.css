@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding-top: 100px;
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+
+}
+
+#welcome {
+    padding: 100px;
+    background: linear-gradient(skyblue, purple);
+    z-index: 9;
+}
+
+#bio {
+    padding: 50px;
+    font-size: 17px;
+    color: mediumvioletred;
+}
+
+p {
+    font-size: 17px;
+    color: mediumvioletred;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: 'New Tegomin', serif;
+    font-weight: 300;
+    color: black;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    float: left;
+    color: mediumvioletred;
+    padding-top: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: darkmagenta;
+    color: yellow;
+    text-decoration: underline;
+    transform: scale(1.3);
+
+
+}
